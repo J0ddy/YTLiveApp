@@ -1,0 +1,35 @@
+{
+  "name": "ytliveapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ytapp.scss",
+  "scripts": {
+    "test": "gulp test",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J0ddy/YTLiveApp.git"
+  },
+  "author": "J0ddy",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/J0ddy/YTLiveApp/issues"
+  },
+  "homepage": "https://github.com/J0ddy/YTLiveApp#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "browser-sync": "^2.29.1",
+    "dotenv-webpack": "^8.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.1.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.62.0"
+  }
+}
