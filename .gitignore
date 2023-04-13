@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+
+# NPM
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Miscellaneous
+Thumbs.db
+.DS_Store
